@@ -1,6 +1,6 @@
 import os
 # =================配置区start===================
-#pass
+#restart
 # 学习通账号密码
 USER_INFO = {
     'username': os.getenv("USER"),
