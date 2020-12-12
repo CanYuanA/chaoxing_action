@@ -22,6 +22,7 @@ jobs:
         pip3 install -r requirements.txt
     - name: Run sign
       env:
+        ONLINE_MODE: ${{ secrets.ONLINE_MODE }}
         USER: ${{ secrets.USER }}
         PASSWORD: ${{ secrets.PASSWORD }}
         SECRET:  ${{ secrets.SECRET }}
