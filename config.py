@@ -1,6 +1,9 @@
 import os
+from setenv import GetAndSetEnv
+
+GetAndSetEnv()
 # =================配置区start===================
-#rerestart
+# rerestart
 # 学习通账号密码
 USER_INFO = {
     'username': os.getenv("USER"),

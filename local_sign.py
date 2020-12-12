@@ -1,4 +1,6 @@
 # -*- coding: utf8 -*-
+from config import *  #pass # NOQA
+from setenv import GetAndSetEnv
 import os
 import time
 import asyncio
@@ -9,7 +11,7 @@ import requests
 from lxml import etree
 from bs4 import BeautifulSoup
 requests.packages.urllib3.disable_warnings()
-from config import *
+
 
 
 class AutoSign(object):
